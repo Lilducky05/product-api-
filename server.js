@@ -14,6 +14,7 @@ app.get('/', (req, res) => {
     res.json({ message: 'Product API is running' });
 });
 
+const PORT = process.env.PORT || 3000;
 mongoose.connect(process.env.MONGO_URI)
     .then(() => {
         console.log('MongoDB connected');

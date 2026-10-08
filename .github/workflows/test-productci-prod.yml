@@ -1,4 +1,4 @@
-name: Product API CI
+name: Product API 
 
 on:
   push:
