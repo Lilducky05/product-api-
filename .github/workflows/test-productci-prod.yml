@@ -1,4 +1,4 @@
-name: Product Test CI/CD
+name: Product Test gi
 
 on:
   push:
